@@ -13,12 +13,10 @@
       .state('root', {
         views: {
           'header': {
-            templateUrl: 'src/common/header.tpl.html',
-            controller: 'HeaderCtrl'
+            template: '<app-header></app-header>',
           },
           'footer': {
-            templateUrl: 'src/common/footer.tpl.html',
-            controller: 'FooterCtrl'
+            template: '<app-footer></app-footer>',
           }
         }
       });
@@ -35,11 +33,11 @@
   angular.module('app', [
       'ui.router',
       'home',
+      'movie-popular',
       'getting-started',
-      'common.header',
-      'common.footer',
+      'appHeaderComponent',
+      'appFooterComponent',
       'common.services.data',
-      'common.directives.version',
       'common.filters.uppercase',
       'common.interceptors.http',
       'templates'

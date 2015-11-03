@@ -37,7 +37,6 @@
       'getting-started',
       'appHeaderComponent',
       'appFooterComponent',
-      'common.services.data',
       'common.filters.uppercase',
       'common.interceptors.http',
       'templates'

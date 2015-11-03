@@ -18,5 +18,5 @@
   }
 
   angular.module('movie-popular', ['moviePopularDirective'])
-    .config(config)
+    .config(config);
 })();
